@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/HP/MPLABProjects/GPU/_build/GPU/default",
+  "command": "\"c:\\Program Files\\Microchip\\xc8\\v4.00\\bin\\xc8-cc.exe\" -DXPRJ_default=default -D__18F4431__ -D__DEBUG=1 -c -mcpu=18F4431 -mdfp=C:/Users/HP/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.8.178/xc8 -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\GPU_default_default_XC8_compile.dir\\C_\\Users\\HP\\MPLABProjects\\GPU\\configurationBits.c.p1 -c C:\\Users\\HP\\MPLABProjects\\GPU\\configurationBits.c",
+  "file": "C:/Users/HP/MPLABProjects/GPU/configurationBits.c",
+  "output": "C:/Users/HP/MPLABProjects/GPU/_build/GPU/default/CMakeFiles/GPU_default_default_XC8_compile.dir/C_/Users/HP/MPLABProjects/GPU/configurationBits.c.p1"
+},
+{
+  "directory": "C:/Users/HP/MPLABProjects/GPU/_build/GPU/default",
+  "command": "\"c:\\Program Files\\Microchip\\xc8\\v4.00\\bin\\xc8-cc.exe\" -DXPRJ_default=default -D__18F4431__ -D__DEBUG=1 -c -mcpu=18F4431 -mdfp=C:/Users/HP/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.8.178/xc8 -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\GPU_default_default_XC8_compile.dir\\C_\\Users\\HP\\MPLABProjects\\GPU\\libraries\\i2c\\i2c.c.p1 -c C:\\Users\\HP\\MPLABProjects\\GPU\\libraries\\i2c\\i2c.c",
+  "file": "C:/Users/HP/MPLABProjects/GPU/libraries/i2c/i2c.c",
+  "output": "C:/Users/HP/MPLABProjects/GPU/_build/GPU/default/CMakeFiles/GPU_default_default_XC8_compile.dir/C_/Users/HP/MPLABProjects/GPU/libraries/i2c/i2c.c.p1"
+},
+{
+  "directory": "C:/Users/HP/MPLABProjects/GPU/_build/GPU/default",
+  "command": "\"c:\\Program Files\\Microchip\\xc8\\v4.00\\bin\\xc8-cc.exe\" -DXPRJ_default=default -D__18F4431__ -D__DEBUG=1 -c -mcpu=18F4431 -mdfp=C:/Users/HP/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.8.178/xc8 -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\GPU_default_default_XC8_compile.dir\\C_\\Users\\HP\\MPLABProjects\\GPU\\libraries\\pwm\\epwm.c.p1 -c C:\\Users\\HP\\MPLABProjects\\GPU\\libraries\\pwm\\epwm.c",
+  "file": "C:/Users/HP/MPLABProjects/GPU/libraries/pwm/epwm.c",
+  "output": "C:/Users/HP/MPLABProjects/GPU/_build/GPU/default/CMakeFiles/GPU_default_default_XC8_compile.dir/C_/Users/HP/MPLABProjects/GPU/libraries/pwm/epwm.c.p1"
+},
+{
+  "directory": "C:/Users/HP/MPLABProjects/GPU/_build/GPU/default",
+  "command": "\"c:\\Program Files\\Microchip\\xc8\\v4.00\\bin\\xc8-cc.exe\" -DXPRJ_default=default -D__18F4431__ -D__DEBUG=1 -c -mcpu=18F4431 -mdfp=C:/Users/HP/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.8.178/xc8 -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\GPU_default_default_XC8_compile.dir\\C_\\Users\\HP\\MPLABProjects\\GPU\\main.c.p1 -c C:\\Users\\HP\\MPLABProjects\\GPU\\main.c",
+  "file": "C:/Users/HP/MPLABProjects/GPU/main.c",
+  "output": "C:/Users/HP/MPLABProjects/GPU/_build/GPU/default/CMakeFiles/GPU_default_default_XC8_compile.dir/C_/Users/HP/MPLABProjects/GPU/main.c.p1"
+}
+]

@@ -1,0 +1,497 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"369 c:\Program Files\Microchip\xc8\v4.00\pic\include\c99/math.h
+[v _sinf `(f ~T0 @X0 0 ef1`f ]
+"28 C:\Users\HP\MPLABProjects\GPU/libraries/pwm/epwm.h
+[v _epwm_set_pair_duty `(v ~T0 @X0 0 ef2`uc`us ]
+[p mainexit ]
+"16
+[s S338 `ui 1 `us -> 4 `i `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 ]
+[n S338 . period duty deadtime override override_state fault ptcon0 ptcon1 pwmcon0 pwmcon1 ]
+"27
+[v _epwm_init_advanced `(v ~T0 @X0 0 ef1`*CS338 ]
+[v F2988 `(v ~T0 @X0 0 tf ]
+"35
+[v _epwm_set_isr `(v ~T0 @X0 0 ef1`*F2988 ]
+"33
+[v _epwm_start `(v ~T0 @X0 0 ef ]
+"12
+[v _epwm_enable_interrupt `(v ~T0 @X0 0 ef ]
+"38 C:/Users/HP/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.8.178/xc8\pic\include\proc/pic18f4431.h
+[; <" DFLTCON equ 0F60h ;# ">
+"102
+[; <" CAP3CON equ 0F61h ;# ">
+"161
+[; <" CAP2CON equ 0F62h ;# ">
+"220
+[; <" CAP1CON equ 0F63h ;# ">
+"279
+[; <" CAP3BUFL equ 0F64h ;# ">
+"284
+[; <" MAXCNTL equ 0F64h ;# ">
+"291
+[; <" CAP3BUFH equ 0F65h ;# ">
+"296
+[; <" MAXCNTH equ 0F65h ;# ">
+"303
+[; <" CAP2BUFL equ 0F66h ;# ">
+"308
+[; <" POSCNTL equ 0F66h ;# ">
+"315
+[; <" CAP2BUFH equ 0F67h ;# ">
+"320
+[; <" POSCNTH equ 0F67h ;# ">
+"327
+[; <" CAP1BUFL equ 0F68h ;# ">
+"332
+[; <" VELRL equ 0F68h ;# ">
+"339
+[; <" CAP1BUFH equ 0F69h ;# ">
+"344
+[; <" VELRH equ 0F69h ;# ">
+"351
+[; <" OVDCONS equ 0F6Ah ;# ">
+"421
+[; <" OVDCOND equ 0F6Bh ;# ">
+"491
+[; <" FLTCONFIG equ 0F6Ch ;# ">
+"553
+[; <" DTCON equ 0F6Dh ;# ">
+"679
+[; <" PWMCON1 equ 0F6Eh ;# ">
+"745
+[; <" PWMCON0 equ 0F6Fh ;# ">
+"815
+[; <" SEVTCMPH equ 0F70h ;# ">
+"822
+[; <" SEVTCMPL equ 0F71h ;# ">
+"829
+[; <" PDC3H equ 0F72h ;# ">
+"836
+[; <" PDC3L equ 0F73h ;# ">
+"843
+[; <" PDC2H equ 0F74h ;# ">
+"850
+[; <" PDC2L equ 0F75h ;# ">
+"857
+[; <" PDC1H equ 0F76h ;# ">
+"864
+[; <" PDC1L equ 0F77h ;# ">
+"871
+[; <" PDC0H equ 0F78h ;# ">
+"878
+[; <" PDC0L equ 0F79h ;# ">
+"885
+[; <" PTPERH equ 0F7Ah ;# ">
+"892
+[; <" PTPERL equ 0F7Bh ;# ">
+"899
+[; <" PTMRH equ 0F7Ch ;# ">
+"906
+[; <" PTMRL equ 0F7Dh ;# ">
+"913
+[; <" PTCON1 equ 0F7Eh ;# ">
+"940
+[; <" PTCON0 equ 0F7Fh ;# ">
+"1022
+[; <" PORTA equ 0F80h ;# ">
+"1183
+[; <" PORTB equ 0F81h ;# ">
+"1254
+[; <" PORTC equ 0F82h ;# ">
+"1520
+[; <" PORTD equ 0F83h ;# ">
+"1591
+[; <" PORTE equ 0F84h ;# ">
+"1717
+[; <" TMR5 equ 0F87h ;# ">
+"1724
+[; <" TMR5L equ 0F87h ;# ">
+"1731
+[; <" TMR5H equ 0F88h ;# ">
+"1738
+[; <" LATA equ 0F89h ;# ">
+"1850
+[; <" LATB equ 0F8Ah ;# ">
+"1962
+[; <" LATC equ 0F8Bh ;# ">
+"2074
+[; <" LATD equ 0F8Ch ;# ">
+"2186
+[; <" LATE equ 0F8Dh ;# ">
+"2238
+[; <" PR5 equ 0F90h ;# ">
+"2245
+[; <" PR5L equ 0F90h ;# ">
+"2252
+[; <" PR5H equ 0F91h ;# ">
+"2259
+[; <" TRISA equ 0F92h ;# ">
+"2264
+[; <" DDRA equ 0F92h ;# ">
+"2481
+[; <" TRISB equ 0F93h ;# ">
+"2486
+[; <" DDRB equ 0F93h ;# ">
+"2703
+[; <" TRISC equ 0F94h ;# ">
+"2708
+[; <" DDRC equ 0F94h ;# ">
+"2925
+[; <" TRISD equ 0F95h ;# ">
+"2930
+[; <" DDRD equ 0F95h ;# ">
+"3147
+[; <" TRISE equ 0F96h ;# ">
+"3152
+[; <" DDRE equ 0F96h ;# ">
+"3249
+[; <" ADCHS equ 0F99h ;# ">
+"3387
+[; <" ADCON3 equ 0F9Ah ;# ">
+"3459
+[; <" OSCTUNE equ 0F9Bh ;# ">
+"3517
+[; <" PIE1 equ 0F9Dh ;# ">
+"3597
+[; <" PIR1 equ 0F9Eh ;# ">
+"3677
+[; <" IPR1 equ 0F9Fh ;# ">
+"3757
+[; <" PIE2 equ 0FA0h ;# ">
+"3798
+[; <" PIR2 equ 0FA1h ;# ">
+"3839
+[; <" IPR2 equ 0FA2h ;# ">
+"3880
+[; <" PIE3 equ 0FA3h ;# ">
+"3972
+[; <" PIR3 equ 0FA4h ;# ">
+"4032
+[; <" IPR3 equ 0FA5h ;# ">
+"4092
+[; <" EECON1 equ 0FA6h ;# ">
+"4158
+[; <" EECON2 equ 0FA7h ;# ">
+"4165
+[; <" EEDATA equ 0FA8h ;# ">
+"4172
+[; <" EEADR equ 0FA9h ;# ">
+"4179
+[; <" BAUDCON equ 0FAAh ;# ">
+"4184
+[; <" BAUDCTL equ 0FAAh ;# ">
+"4359
+[; <" RCSTA equ 0FABh ;# ">
+"4364
+[; <" RCSTA1 equ 0FABh ;# ">
+"4569
+[; <" TXSTA equ 0FACh ;# ">
+"4574
+[; <" TXSTA1 equ 0FACh ;# ">
+"4825
+[; <" TXREG equ 0FADh ;# ">
+"4830
+[; <" TXREG1 equ 0FADh ;# ">
+"4837
+[; <" RCREG equ 0FAEh ;# ">
+"4842
+[; <" RCREG1 equ 0FAEh ;# ">
+"4849
+[; <" SPBRG equ 0FAFh ;# ">
+"4854
+[; <" SPBRG1 equ 0FAFh ;# ">
+"4861
+[; <" SPBRGH equ 0FB0h ;# ">
+"4868
+[; <" QEICON equ 0FB6h ;# ">
+"5020
+[; <" T5CON equ 0FB7h ;# ">
+"5138
+[; <" ANSEL0 equ 0FB8h ;# ">
+"5200
+[; <" ANSEL1 equ 0FB9h ;# ">
+"5220
+[; <" CCP2CON equ 0FBAh ;# ">
+"5299
+[; <" CCPR2 equ 0FBBh ;# ">
+"5306
+[; <" CCPR2L equ 0FBBh ;# ">
+"5313
+[; <" CCPR2H equ 0FBCh ;# ">
+"5320
+[; <" CCP1CON equ 0FBDh ;# ">
+"5399
+[; <" CCPR1 equ 0FBEh ;# ">
+"5406
+[; <" CCPR1L equ 0FBEh ;# ">
+"5413
+[; <" CCPR1H equ 0FBFh ;# ">
+"5420
+[; <" ADCON2 equ 0FC0h ;# ">
+"5496
+[; <" ADCON1 equ 0FC1h ;# ">
+"5592
+[; <" ADCON0 equ 0FC2h ;# ">
+"5711
+[; <" ADRES equ 0FC3h ;# ">
+"5718
+[; <" ADRESL equ 0FC3h ;# ">
+"5725
+[; <" ADRESH equ 0FC4h ;# ">
+"5732
+[; <" SSPCON equ 0FC6h ;# ">
+"5737
+[; <" SSPCON1 equ 0FC6h ;# ">
+"5870
+[; <" SSPSTAT equ 0FC7h ;# ">
+"6091
+[; <" SSPADD equ 0FC8h ;# ">
+"6098
+[; <" SSPBUF equ 0FC9h ;# ">
+"6105
+[; <" T2CON equ 0FCAh ;# ">
+"6203
+[; <" PR2 equ 0FCBh ;# ">
+"6208
+[; <" MEMCON equ 0FCBh ;# ">
+"6313
+[; <" TMR2 equ 0FCCh ;# ">
+"6320
+[; <" T1CON equ 0FCDh ;# ">
+"6432
+[; <" TMR1 equ 0FCEh ;# ">
+"6439
+[; <" TMR1L equ 0FCEh ;# ">
+"6446
+[; <" TMR1H equ 0FCFh ;# ">
+"6453
+[; <" RCON equ 0FD0h ;# ">
+"6596
+[; <" WDTCON equ 0FD1h ;# ">
+"6623
+[; <" LVDCON equ 0FD2h ;# ">
+"6688
+[; <" OSCCON equ 0FD3h ;# ">
+"6774
+[; <" T0CON equ 0FD5h ;# ">
+"6850
+[; <" TMR0 equ 0FD6h ;# ">
+"6857
+[; <" TMR0L equ 0FD6h ;# ">
+"6864
+[; <" TMR0H equ 0FD7h ;# ">
+"6871
+[; <" STATUS equ 0FD8h ;# ">
+"6942
+[; <" FSR2 equ 0FD9h ;# ">
+"6949
+[; <" FSR2L equ 0FD9h ;# ">
+"6956
+[; <" FSR2H equ 0FDAh ;# ">
+"6963
+[; <" PLUSW2 equ 0FDBh ;# ">
+"6970
+[; <" PREINC2 equ 0FDCh ;# ">
+"6977
+[; <" POSTDEC2 equ 0FDDh ;# ">
+"6984
+[; <" POSTINC2 equ 0FDEh ;# ">
+"6991
+[; <" INDF2 equ 0FDFh ;# ">
+"6998
+[; <" BSR equ 0FE0h ;# ">
+"7005
+[; <" FSR1 equ 0FE1h ;# ">
+"7012
+[; <" FSR1L equ 0FE1h ;# ">
+"7019
+[; <" FSR1H equ 0FE2h ;# ">
+"7026
+[; <" PLUSW1 equ 0FE3h ;# ">
+"7033
+[; <" PREINC1 equ 0FE4h ;# ">
+"7040
+[; <" POSTDEC1 equ 0FE5h ;# ">
+"7047
+[; <" POSTINC1 equ 0FE6h ;# ">
+"7054
+[; <" INDF1 equ 0FE7h ;# ">
+"7061
+[; <" WREG equ 0FE8h ;# ">
+"7068
+[; <" FSR0 equ 0FE9h ;# ">
+"7075
+[; <" FSR0L equ 0FE9h ;# ">
+"7082
+[; <" FSR0H equ 0FEAh ;# ">
+"7089
+[; <" PLUSW0 equ 0FEBh ;# ">
+"7096
+[; <" PREINC0 equ 0FECh ;# ">
+"7103
+[; <" POSTDEC0 equ 0FEDh ;# ">
+"7110
+[; <" POSTINC0 equ 0FEEh ;# ">
+"7117
+[; <" INDF0 equ 0FEFh ;# ">
+"7124
+[; <" INTCON3 equ 0FF0h ;# ">
+"7216
+[; <" INTCON2 equ 0FF1h ;# ">
+"7293
+[; <" INTCON equ 0FF2h ;# ">
+"7410
+[; <" PROD equ 0FF3h ;# ">
+"7417
+[; <" PRODL equ 0FF3h ;# ">
+"7424
+[; <" PRODH equ 0FF4h ;# ">
+"7431
+[; <" TABLAT equ 0FF5h ;# ">
+"7440
+[; <" TBLPTR equ 0FF6h ;# ">
+"7447
+[; <" TBLPTRL equ 0FF6h ;# ">
+"7454
+[; <" TBLPTRH equ 0FF7h ;# ">
+"7461
+[; <" TBLPTRU equ 0FF8h ;# ">
+"7470
+[; <" PCLAT equ 0FF9h ;# ">
+"7477
+[; <" PC equ 0FF9h ;# ">
+"7484
+[; <" PCL equ 0FF9h ;# ">
+"7491
+[; <" PCLATH equ 0FFAh ;# ">
+"7498
+[; <" PCLATU equ 0FFBh ;# ">
+"7505
+[; <" STKPTR equ 0FFCh ;# ">
+"7579
+[; <" TOS equ 0FFDh ;# ">
+"7586
+[; <" TOSL equ 0FFDh ;# ">
+"7593
+[; <" TOSH equ 0FFEh ;# ">
+"7600
+[; <" TOSU equ 0FFFh ;# ">
+"12 C:\Users\HP\MPLABProjects\GPU\main.c
+[v _sine_LUT `us ~T0 @X0 -> 50 `i e ]
+"13
+[v _sample_idx `Vuc ~T0 @X0 1 e ]
+[i _sample_idx
+-> -> 0 `i `uc
+]
+"15
+[v _setup_sine_LUT `(v ~T0 @X0 1 ef ]
+{
+[e :U _setup_sine_LUT ]
+[f ]
+"16
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[e $ < _i / -> 20000 `i -> 400 `i 340  ]
+[e $U 341  ]
+[e :U 340 ]
+{
+"17
+[v _angle `d ~T0 @X0 1 a ]
+[e = _angle / * * .2.0 .3.1415926536 -> _i `d -> / -> 20000 `i -> 400 `i `d ]
+"18
+[e = *U + &U _sine_LUT * -> -> _i `ui `ux -> -> # *U &U _sine_LUT `ui `ux -> * + .0.5 * .0.4 -> ( _sinf (1 -> _angle `f `d -> -> 1500 `i `d `us ]
+"19
+}
+"16
+[e ++ _i -> 1 `i ]
+[e $ < _i / -> 20000 `i -> 400 `i 340  ]
+[e :U 341 ]
+"19
+}
+"20
+[e :UE 339 ]
+}
+"22
+[v _pwm_update_callback `(v ~T0 @X0 1 ef ]
+{
+[e :U _pwm_update_callback ]
+[f ]
+"23
+[v _idx_a `uc ~T0 @X0 1 a ]
+[e = _idx_a _sample_idx ]
+"24
+[v _idx_b `uc ~T0 @X0 1 a ]
+[e = _idx_b -> % + -> _sample_idx `i / / -> 20000 `i -> 400 `i -> 3 `i / -> 20000 `i -> 400 `i `uc ]
+"25
+[v _idx_c `uc ~T0 @X0 1 a ]
+[e = _idx_c -> % + -> _sample_idx `i / * -> 2 `i / -> 20000 `i -> 400 `i -> 3 `i / -> 20000 `i -> 400 `i `uc ]
+"27
+[e ( _epwm_set_pair_duty (2 , -> -> 0 `i `uc *U + &U _sine_LUT * -> _idx_a `ux -> -> # *U &U _sine_LUT `ui `ux ]
+"28
+[e ( _epwm_set_pair_duty (2 , -> -> 1 `i `uc *U + &U _sine_LUT * -> _idx_b `ux -> -> # *U &U _sine_LUT `ui `ux ]
+"29
+[e ( _epwm_set_pair_duty (2 , -> -> 2 `i `uc *U + &U _sine_LUT * -> _idx_c `ux -> -> # *U &U _sine_LUT `ui `ux ]
+"30
+[e ( _epwm_set_pair_duty (2 , -> -> 3 `i `uc -> -> 120 `i `us ]
+"32
+[e = _sample_idx -> % + -> _sample_idx `i -> 1 `i / -> 20000 `i -> 400 `i `uc ]
+"33
+[e :UE 343 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"37
+[v _main `(i ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"38
+[e ( _setup_sine_LUT ..  ]
+[v F3426 `S338 ~T0 @X0 1 s ]
+[i F3426
+:U ..
+:U ..
+"39
+-> -> 499 `i `ui
+:U ..
+-> -> 0 `i `us
+-> -> 0 `i `us
+-> -> 0 `i `us
+-> -> 0 `i `us
+..
+-> | << -> 0 `i -> 6 `i & -> 8 `i -> 63 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> | | -> 0 `i << -> 0 `i -> 2 `i << -> 0 `i -> 4 `i `uc
+-> | -> 128 `i -> 0 `i `uc
+-> | | | | << -> 1 `i -> 0 `i << -> 1 `i -> 1 `i << -> 1 `i -> 3 `i << -> 1 `i -> 3 `i << -> 5 `i -> 4 `i `uc
+-> -> 0 `i `uc
+..
+..
+]
+[v _cfg `S338 ~T0 @X0 1 a ]
+[e = _cfg F3426 ]
+"52
+[e ( _epwm_init_advanced (1 -> &U _cfg `*CS338 ]
+"53
+[e ( _epwm_set_isr (1 &U _pwm_update_callback ]
+"54
+[e ( _epwm_start ..  ]
+"55
+[e ( _epwm_enable_interrupt ..  ]
+"57
+[e :U 346 ]
+{
+"60
+}
+[e :U 345 ]
+"57
+[e $U 346  ]
+[e :U 347 ]
+"61
+[e ) -> 0 `i ]
+[e $UE 344  ]
+"62
+[e :UE 344 ]
+}

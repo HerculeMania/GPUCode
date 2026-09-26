@@ -1,0 +1,4 @@
+C:/Users/HP/MPLABProjects/GPU/_build/GPU/pic32mx/CMakeFiles/GPU_pic32mx_pic32mx_toolchain_compile.dir
+C:/Users/HP/MPLABProjects/GPU/_build/GPU/pic32mx/CMakeFiles/GPU_pic32mx_image_0FFe5IaX.dir
+C:/Users/HP/MPLABProjects/GPU/_build/GPU/pic32mx/CMakeFiles/edit_cache.dir
+C:/Users/HP/MPLABProjects/GPU/_build/GPU/pic32mx/CMakeFiles/rebuild_cache.dir

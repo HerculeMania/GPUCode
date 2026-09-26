@@ -1,0 +1,86 @@
+{
+    "version": "1.9",
+    "configurations": [
+        {
+            "name": "default",
+            "id": "",
+            "device": "PIC18F4431",
+            "imagePath": "./out/GPU/default.elf",
+            "toolProperties": "default-tool-base",
+            "packs": [
+                {
+                    "name": "PIC18Fxxxx_DFP",
+                    "vendor": "Microchip",
+                    "version": "1.8.178"
+                }
+            ],
+            "fileSet": "default",
+            "toolchain": "default-XC8"
+        },
+        {
+            "name": "pic32mx",
+            "id": "",
+            "device": "PIC32AK1216GC41036",
+            "imageType": "application",
+            "imagePath": "./out/GPU/pic32mx.elf",
+            "packs": [
+                {
+                    "name": "PIC32AK-GC_DFP",
+                    "vendor": "Microchip",
+                    "version": "1.1.53"
+                }
+            ],
+            "fileSet": "pic32mx_files",
+            "toolchain": "pic32mx_toolchain"
+        }
+    ],
+    "propertyGroups": [
+        {
+            "name": "default-uservariables",
+            "type": "uservariables",
+            "properties": {}
+        },
+        {
+            "name": "default-XC8",
+            "type": "toolchain",
+            "provider": "microchip.toolchains:xc8@4.00",
+            "properties": {}
+        },
+        {
+            "name": "pic32mx_toolchain",
+            "type": "toolchain",
+            "provider": "microchip.toolchains:xc8@4.00",
+            "properties": {}
+        },
+        {
+            "name": "default-tool-base",
+            "type": "tool",
+            "properties": {}
+        }
+    ],
+    "fileSets": [
+        {
+            "name": "default",
+            "files": [
+                "libraries/i2c/i2c.h",
+                "libraries/pwm/epwm.h",
+                "libraries/i2c/i2c.c",
+                "libraries/pwm/epwm.c",
+                "main.c",
+                "README.md",
+                "config.mcc/mcc/mcc.vscode",
+                "configurationBits.c",
+                "libraries/pwm/epwm_config.h"
+            ]
+        },
+        {
+            "name": "pic32mx_files",
+            "files": [
+                {
+                    "include": "**/*",
+                    "exclude": "**/@(build|_build|out|cmake|.vscode)/**/*"
+                }
+            ]
+        }
+    ]
+}

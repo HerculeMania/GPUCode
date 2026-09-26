@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/HP/MPLABProjects/GPU/_build/GPU/pic32mx",
+  "command": "\"c:\\Program Files\\Microchip\\xc8\\v4.00\\bin\\xc8-cc.exe\" -DXPRJ_pic32mx=pic32mx -D__32AK1216GC41036__ -c -mcpu=32AK1216GC41036 -mdfp=C:/Users/HP/.mchp_packs/Microchip/PIC32AK-GC_DFP/1.1.53/xc32 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto -o CMakeFiles\\GPU_pic32mx_pic32mx_toolchain_compile.dir\\C_\\Users\\HP\\MPLABProjects\\GPU\\configurationBits.c.p1 -c C:\\Users\\HP\\MPLABProjects\\GPU\\configurationBits.c",
+  "file": "C:/Users/HP/MPLABProjects/GPU/configurationBits.c",
+  "output": "C:/Users/HP/MPLABProjects/GPU/_build/GPU/pic32mx/CMakeFiles/GPU_pic32mx_pic32mx_toolchain_compile.dir/C_/Users/HP/MPLABProjects/GPU/configurationBits.c.p1"
+},
+{
+  "directory": "C:/Users/HP/MPLABProjects/GPU/_build/GPU/pic32mx",
+  "command": "\"c:\\Program Files\\Microchip\\xc8\\v4.00\\bin\\xc8-cc.exe\" -DXPRJ_pic32mx=pic32mx -D__32AK1216GC41036__ -c -mcpu=32AK1216GC41036 -mdfp=C:/Users/HP/.mchp_packs/Microchip/PIC32AK-GC_DFP/1.1.53/xc32 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto -o CMakeFiles\\GPU_pic32mx_pic32mx_toolchain_compile.dir\\C_\\Users\\HP\\MPLABProjects\\GPU\\libraries\\i2c\\i2c.c.p1 -c C:\\Users\\HP\\MPLABProjects\\GPU\\libraries\\i2c\\i2c.c",
+  "file": "C:/Users/HP/MPLABProjects/GPU/libraries/i2c/i2c.c",
+  "output": "C:/Users/HP/MPLABProjects/GPU/_build/GPU/pic32mx/CMakeFiles/GPU_pic32mx_pic32mx_toolchain_compile.dir/C_/Users/HP/MPLABProjects/GPU/libraries/i2c/i2c.c.p1"
+},
+{
+  "directory": "C:/Users/HP/MPLABProjects/GPU/_build/GPU/pic32mx",
+  "command": "\"c:\\Program Files\\Microchip\\xc8\\v4.00\\bin\\xc8-cc.exe\" -DXPRJ_pic32mx=pic32mx -D__32AK1216GC41036__ -c -mcpu=32AK1216GC41036 -mdfp=C:/Users/HP/.mchp_packs/Microchip/PIC32AK-GC_DFP/1.1.53/xc32 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto -o CMakeFiles\\GPU_pic32mx_pic32mx_toolchain_compile.dir\\C_\\Users\\HP\\MPLABProjects\\GPU\\libraries\\pwm\\epwm.c.p1 -c C:\\Users\\HP\\MPLABProjects\\GPU\\libraries\\pwm\\epwm.c",
+  "file": "C:/Users/HP/MPLABProjects/GPU/libraries/pwm/epwm.c",
+  "output": "C:/Users/HP/MPLABProjects/GPU/_build/GPU/pic32mx/CMakeFiles/GPU_pic32mx_pic32mx_toolchain_compile.dir/C_/Users/HP/MPLABProjects/GPU/libraries/pwm/epwm.c.p1"
+},
+{
+  "directory": "C:/Users/HP/MPLABProjects/GPU/_build/GPU/pic32mx",
+  "command": "\"c:\\Program Files\\Microchip\\xc8\\v4.00\\bin\\xc8-cc.exe\" -DXPRJ_pic32mx=pic32mx -D__32AK1216GC41036__ -c -mcpu=32AK1216GC41036 -mdfp=C:/Users/HP/.mchp_packs/Microchip/PIC32AK-GC_DFP/1.1.53/xc32 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto -o CMakeFiles\\GPU_pic32mx_pic32mx_toolchain_compile.dir\\C_\\Users\\HP\\MPLABProjects\\GPU\\main.c.p1 -c C:\\Users\\HP\\MPLABProjects\\GPU\\main.c",
+  "file": "C:/Users/HP/MPLABProjects/GPU/main.c",
+  "output": "C:/Users/HP/MPLABProjects/GPU/_build/GPU/pic32mx/CMakeFiles/GPU_pic32mx_pic32mx_toolchain_compile.dir/C_/Users/HP/MPLABProjects/GPU/main.c.p1"
+}
+]

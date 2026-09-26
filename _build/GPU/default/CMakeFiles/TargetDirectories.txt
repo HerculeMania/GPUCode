@@ -1,0 +1,4 @@
+C:/Users/HP/MPLABProjects/GPU/_build/GPU/default/CMakeFiles/GPU_default_default_XC8_compile.dir
+C:/Users/HP/MPLABProjects/GPU/_build/GPU/default/CMakeFiles/GPU_default_image_Zs62FFKp.dir
+C:/Users/HP/MPLABProjects/GPU/_build/GPU/default/CMakeFiles/edit_cache.dir
+C:/Users/HP/MPLABProjects/GPU/_build/GPU/default/CMakeFiles/rebuild_cache.dir
